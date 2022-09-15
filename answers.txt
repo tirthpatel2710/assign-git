@@ -2,3 +2,11 @@
 •  What does fast-forward in git mean? 
 •  Why should you have different branches? 
 •  In a project how many remote Git repositories do you usually have? 
+
+
+Answer : 
+
+1) gitignore file is used to ignore some files that are not needed to push to the repository. By using gitignore file it ignore unnecsessery file when we commit the project.
+2) Fast-forward in git means merging without the need to create another commit. Just move the head to point to the latest commit.  
+3) It helps to keep the main branch clean when multiple people are working on the same project. i.e. each person can work on their own part and at the end they can merge it.
+4) we can have as many remote git repository as we want. But all the remotes must have different name.
